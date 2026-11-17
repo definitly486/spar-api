@@ -1,0 +1,51 @@
+package pq;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class lqeggnwhkg {
+    public static int add_to_cart = 2131886150;
+    public static int catalog_pager_restaurants_title = 2131886421;
+    public static int catalog_pager_spar_title = 2131886422;
+    public static int clear_history = 2131886461;
+    public static int delivery_type_fast_title = 2131886582;
+    public static int delivery_type_pick_up_title = 2131886583;
+    public static int delivery_type_regular_title = 2131886584;
+    public static int edit_order_catalog_return_to_order = 2131886632;
+    public static int edit_order_catalog_search = 2131886633;
+    public static int format_brand_title = 2131886779;
+    public static int history = 2131886815;
+    public static int msg_product_adding_to_cart = 2131886918;
+    public static int msg_product_adding_to_edit_order = 2131886919;
+    public static int my_lists = 2131886988;
+    public static int order_edit_delivery_price_changed = 2131887056;
+    public static int pickup = 2131887109;
+    public static int product_not_available = 2131887133;
+    public static int purchase_compilation_selection = 2131888391;
+    public static int purchase_delimiter = 2131888392;
+    public static int purchases_history_title = 2131888402;
+    public static int purchases_list_product_added_to_the_list = 2131888416;
+    public static int purchases_list_product_list_added_to_the_list = 2131888418;
+    public static int restaurant_delivery_time_format = 2131888504;
+    public static int restaurant_min_order_sum_format = 2131888509;
+    public static int restaurants_empty_warning = 2131888512;
+    public static int sort_title_dialog = 2131888665;
+    public static int sort_title_popular = 2131888666;
+    public static int sort_title_popular_dialog = 2131888667;
+    public static int sort_title_price_asc = 2131888668;
+    public static int sort_title_price_asc_dialog = 2131888669;
+    public static int sort_title_price_desc = 2131888670;
+    public static int sort_title_price_desc_dialog = 2131888671;
+    public static int sort_title_rating = 2131888672;
+    public static int sort_title_rating_dialog = 2131888673;
+    public static int sort_title_rating_vivino_dialog = 2131888674;
+    public static int sort_title_vivino_rating = 2131888675;
+    public static int specific_purchase_success_retry_return = 2131888897;
+    public static int specific_purchase_success_retry_subtitle = 2131888898;
+    public static int specific_purchase_success_retry_title = 2131888899;
+    public static int title_buy_shop = 2131888944;
+    public static int title_not_found_search_warning = 2131888983;
+    public static int title_product_not_available = 2131889014;
+    public static int title_search = 2131889023;
+    public static int title_search_empty_warning = 2131889024;
+    public static int title_search_in_category = 2131889025;
+    public static int title_temporary_not_available = 2131889032;
+}

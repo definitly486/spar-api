@@ -1,0 +1,26 @@
+package com.yandex.mapkit.map.internal;
+
+import com.yandex.mapkit.map.Callback;
+import com.yandex.mapkit.map.Model;
+import com.yandex.mapkit.map.ModelStyle;
+import com.yandex.runtime.DataProviderWithId;
+import com.yandex.runtime.NativeObject;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class ModelBinding extends PlacemarkPresentationBinding implements Model {
+    protected ModelBinding(NativeObject nativeObject) {
+        super(nativeObject);
+    }
+
+    @Override // com.yandex.mapkit.map.Model
+    public native ModelStyle getModelStyle();
+
+    @Override // com.yandex.mapkit.map.Model
+    public native void setData(DataProviderWithId dataProviderWithId);
+
+    @Override // com.yandex.mapkit.map.Model
+    public native void setData(DataProviderWithId dataProviderWithId, Callback callback);
+
+    @Override // com.yandex.mapkit.map.Model
+    public native void setModelStyle(ModelStyle modelStyle);
+}

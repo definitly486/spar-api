@@ -1,0 +1,53 @@
+package in0;
+
+import com.google.android.gms.fido.fido2.api.common.UserVerificationMethods;
+import kotlin.NoWhenBranchMatchedException;
+import kotlin.jvm.internal.zdlpuopuiu;
+import ru.myspar.proloyalty.auth.impl.domain.registration.store.State;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class zoijcleaow implements a8.ppxfxbqfkf {
+    @Override // a8.ppxfxbqfkf
+    /* JADX INFO: renamed from: zoijcleaow, reason: merged with bridge method [inline-methods] */
+    public State iobyxmoadg(State state, gxszxtbevo msg) {
+        zdlpuopuiu.btonecajqb(state, "<this>");
+        zdlpuopuiu.btonecajqb(msg, "msg");
+        if (msg instanceof gxszxtbevo.lqeggnwhkg) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : ((gxszxtbevo.lqeggnwhkg) msg).iobyxmoadg(), (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.zoijcleaow) {
+            gxszxtbevo.zoijcleaow zoijcleaowVar = (gxszxtbevo.zoijcleaow) msg;
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : zoijcleaowVar.iobyxmoadg(), (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : zoijcleaowVar.zoijcleaow(), (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.ppxfxbqfkf) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : ((gxszxtbevo.ppxfxbqfkf) msg).iobyxmoadg(), (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.wkgbmnqykc) {
+            gxszxtbevo.wkgbmnqykc wkgbmnqykcVar = (gxszxtbevo.wkgbmnqykc) msg;
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : wkgbmnqykcVar.zoijcleaow(), (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : wkgbmnqykcVar.iobyxmoadg(), (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.C1043gxszxtbevo) {
+            gxszxtbevo.C1043gxszxtbevo c1043gxszxtbevo = (gxszxtbevo.C1043gxszxtbevo) msg;
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : c1043gxszxtbevo.zoijcleaow(), (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : c1043gxszxtbevo.iobyxmoadg(), (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.iobyxmoadg) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : ((gxszxtbevo.iobyxmoadg) msg).iobyxmoadg(), (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.eablkybsjg) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : ((gxszxtbevo.eablkybsjg) msg).iobyxmoadg(), (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.nufgyqmvbu) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : ((gxszxtbevo.nufgyqmvbu) msg).iobyxmoadg(), (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.dxjokdxxww) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : ((gxszxtbevo.dxjokdxxww) msg).iobyxmoadg(), (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.btonecajqb) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : ((gxszxtbevo.btonecajqb) msg).iobyxmoadg(), (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : null);
+        }
+        if (msg instanceof gxszxtbevo.gtknphoqwx) {
+            return state.zoijcleaow((6143 & 1) != 0 ? state.email : null, (6143 & 2) != 0 ? state.firstName : null, (6143 & 4) != 0 ? state.lastName : null, (6143 & 8) != 0 ? state.emailError : null, (6143 & 16) != 0 ? state.isFirstNameError : null, (6143 & 32) != 0 ? state.isLastNameError : null, (6143 & 64) != 0 ? state.birthDate : null, (6143 & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.gender : null, (6143 & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.sharePromoChecked : false, (6143 & UserVerificationMethods.USER_VERIFY_NONE) != 0 ? state.isPolicyAccepted : false, (6143 & UserVerificationMethods.USER_VERIFY_ALL) != 0 ? state.showExitDialog : false, (6143 & 2048) != 0 ? state.isLoading : false, (6143 & 4096) != 0 ? state.tokenInfo : ((gxszxtbevo.gtknphoqwx) msg).iobyxmoadg());
+        }
+        throw new NoWhenBranchMatchedException();
+    }
+}

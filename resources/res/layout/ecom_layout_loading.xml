@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ecom_sll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="600dp"
+    android:transitionName="payTransition">
+    <modern.payments.ecomAndroid.presentation.view.EcomDotsLoaderView
+        android:id="@+id/ecomSllSdlvProgress"
+        android:visibility="visible"
+        android:layout_width="@dimen/ecom_36dp"
+        android:layout_height="@dimen/ecom_36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ecomSllTvLoadingText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_default="wrap"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ecomSllTvLoadingText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ecom_16dp"
+        android:layout_marginHorizontal="@dimen/ecom_16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecomSllSdlvProgress"
+        style="@style/EcomLoadingTextStyle"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/ecomSllActvLocalSessionId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ecom_8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

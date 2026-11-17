@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorSurface"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="44dp"
+    android:paddingVertical="12dp">
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="center"
+        android:id="@+id/tvSuccessTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/proloyalty_title_pay_processing"
+        app:layout_constraintBottom_toTopOf="@+id/tvSuccessSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Emphasis.Heading3"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="center"
+        android:id="@+id/tvSuccessSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSuccessTitle"
+        style="@style/Regular.Heading6"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/proloyalty_action_fine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSuccessSubtitle"
+        style="@style/Button.Primary56.ButtonLargeBold16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

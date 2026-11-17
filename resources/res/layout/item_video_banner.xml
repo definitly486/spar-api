@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/videoBanner"
+    android:layout_width="@dimen/banner_video_width"
+    android:layout_height="@dimen/banner_video_height">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_gravity="center"
+        android:id="@+id/ivBanner"
+        android:background="?attr/colorTextStaticWhite1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/banner_description"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceRounded12dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_gravity="center"
+        android:id="@+id/fabPlay"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/play_description"
+        app:backgroundTint="?attr/colorSpecialSurface1"
+        app:borderWidth="0dp"
+        app:srcCompat="@drawable/ic_play_24"
+        app:tint="?attr/colorPrimary"/>
+    <ru.myspar.core.ui.view.popup_text.PopupTextView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/tvAdvertisement"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/advertising"
+        style="@style/PopupTextViewDefault"/>
+</FrameLayout>

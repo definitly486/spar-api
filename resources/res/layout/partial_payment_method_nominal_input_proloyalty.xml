@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorSurface2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons3"
+        android:gravity="center_vertical"
+        android:id="@+id/tvNominal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/proloyalty_payment_method_cash_nominal"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/etNominal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Android.Body2"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:textColor="?attr/colorTextIcons2"
+        android:gravity="center_vertical"
+        android:id="@+id/etNominal"
+        android:background="@drawable/bg_rounded_corners_16dp"
+        android:padding="16dp"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:hint="@string/proloyalty_payment_method_cash_nominal_hint"
+        android:maxLength="6"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:layout_marginEnd="16dp"
+        android:layout_marginVertical="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Regular.Heading6"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

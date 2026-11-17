@@ -1,0 +1,57 @@
+package s40;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class draadjrbmk {
+    public static int action_delete = 2131886120;
+    public static int action_edit = 2131886122;
+    public static int action_save = 2131886134;
+    public static int address_bar_no_address_text = 2131886154;
+    public static int address_bar_no_address_warning = 2131886155;
+    public static int address_not_found = 2131886163;
+    public static int advertising = 2131886178;
+    public static int app_name = 2131886302;
+    public static int cart = 2131886387;
+    public static int catalog = 2131886420;
+    public static int check_internet_connection = 2131886445;
+    public static int checkout = 2131886447;
+    public static int choose_title = 2131886454;
+    public static int code_has_been_copied = 2131886470;
+    public static int confirm = 2131886496;
+    public static int delivery_type_fast_title = 2131886582;
+    public static int delivery_type_pick_up_title = 2131886583;
+    public static int delivery_type_regular_title = 2131886584;
+    public static int discount_percent_format = 2131886595;
+    public static int first_to_tell_about_product = 2131886773;
+    public static int login = 2131886840;
+    public static int main = 2131886858;
+    public static int measure_both_value = 2131886888;
+    public static int no_products_with_this_filter_warning = 2131887000;
+    public static int no_reviews = 2131887004;
+    public static int no_reviews_yet = 2131887006;
+    public static int non_authorized_title = 2131887012;
+    public static int price_with_currency_format = 2131887123;
+    public static int profile = 2131887152;
+    public static int register = 2131888482;
+    public static int reviews_empty_yet = 2131888520;
+    public static int rouble = 2131888521;
+    public static int something_went_wrong = 2131888664;
+    public static int special_products_more = 2131888860;
+    public static int special_products_new_title = 2131888861;
+    public static int special_products_personal_title = 2131888862;
+    public static int special_products_popular_title = 2131888863;
+    public static int special_products_recommendations_title = 2131888864;
+    public static int special_products_related_title = 2131888865;
+    public static int special_products_similar_title = 2131888866;
+    public static int support = 2131888923;
+    public static int sweet_life_title = 2131888927;
+    public static int technical_works_default_error_header = 2131888931;
+    public static int technical_works_default_error_text = 2131888932;
+    public static int try_a_combo = 2131889046;
+    public static int unauthorized_error_message = 2131889049;
+    public static int unlock_promo_product_error_message = 2131889054;
+    public static int view_all = 2131889060;
+    public static int view_quantity_count_title = 2131889061;
+    public static int view_quantity_weight_title = 2131889062;
+    public static int vivino = 2131889063;
+    public static int waiting_for_evaluation = 2131889076;
+}

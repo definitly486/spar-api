@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">178.154.202.106
+        </domain>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">3dsecmt.sberbank.ru
+        </domain>
+        <domain includeSubdomains="true">3dsec.sberbank.ru
+        </domain>
+        <domain includeSubdomains="true">securepayments.sberbank.ru
+        </domain>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="@raw/mincifr_cert_root"/>
+        </trust-anchors>
+    </domain-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+            <certificates src="@raw/mincifr_cert_root"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

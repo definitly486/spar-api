@@ -1,0 +1,137 @@
+package com.yandex.mapkit.map;
+
+import com.yandex.mapkit.Animation;
+import com.yandex.mapkit.ScreenRect;
+import com.yandex.mapkit.geometry.Geometry;
+import com.yandex.mapkit.geometry.geo.Projection;
+import com.yandex.mapkit.indoor.IndoorStateListener;
+import com.yandex.mapkit.layers.GeoObjectTapListener;
+import com.yandex.mapkit.layers.Layer;
+import com.yandex.mapkit.layers.LayerOptions;
+import com.yandex.mapkit.logo.Logo;
+
+/* JADX INFO: loaded from: classes3.dex */
+public interface Map {
+
+    public interface CameraCallback {
+        void onMoveFinished(boolean z13);
+    }
+
+    void addCameraListener(CameraListener cameraListener);
+
+    void addIndoorStateListener(IndoorStateListener indoorStateListener);
+
+    void addInputListener(InputListener inputListener);
+
+    RootMapObjectCollection addMapObjectLayer(String str);
+
+    void addTapListener(GeoObjectTapListener geoObjectTapListener);
+
+    Layer addTileLayer(String str, LayerOptions layerOptions, CreateTileDataSource createTileDataSource);
+
+    CameraPosition cameraPosition(Geometry geometry);
+
+    CameraPosition cameraPosition(Geometry geometry, ScreenRect screenRect);
+
+    CameraPosition cameraPosition(Geometry geometry, ScreenRect screenRect, Float f13);
+
+    CameraPosition cameraPosition(Geometry geometry, ScreenRect screenRect, Float f13, Float f14);
+
+    void deselectGeoObject();
+
+    CameraBounds getCameraBounds();
+
+    CameraPosition getCameraPosition();
+
+    Logo getLogo();
+
+    RootMapObjectCollection getMapObjects();
+
+    MapType getMapType();
+
+    MapMode getMode();
+
+    Integer getPoiLimit();
+
+    VisibleRegion getVisibleRegion();
+
+    boolean isAwesomeModelsEnabled();
+
+    boolean isFastTapEnabled();
+
+    boolean isHdModeEnabled();
+
+    boolean isIndoorEnabled();
+
+    boolean isNightModeEnabled();
+
+    boolean isRotateGesturesEnabled();
+
+    boolean isScrollGesturesEnabled();
+
+    boolean isTiltGesturesEnabled();
+
+    boolean isValid();
+
+    boolean isZoomGesturesEnabled();
+
+    void move(CameraPosition cameraPosition);
+
+    void move(CameraPosition cameraPosition, Animation animation);
+
+    void move(CameraPosition cameraPosition, Animation animation, CameraCallback cameraCallback);
+
+    Projection projection();
+
+    void removeCameraListener(CameraListener cameraListener);
+
+    void removeIndoorStateListener(IndoorStateListener indoorStateListener);
+
+    void removeInputListener(InputListener inputListener);
+
+    void removeTapListener(GeoObjectTapListener geoObjectTapListener);
+
+    void resetMapStyles();
+
+    void selectGeoObject(GeoObjectSelectionMetadata geoObjectSelectionMetadata);
+
+    void set2DMode(boolean z13);
+
+    void setAwesomeModelsEnabled(boolean z13);
+
+    void setFastTapEnabled(boolean z13);
+
+    void setHdModeEnabled(boolean z13);
+
+    void setIndoorEnabled(boolean z13);
+
+    void setMapLoadedListener(MapLoadedListener mapLoadedListener);
+
+    boolean setMapStyle(int i13, String str);
+
+    boolean setMapStyle(String str);
+
+    void setMapType(MapType mapType);
+
+    void setMode(MapMode mapMode);
+
+    void setNightModeEnabled(boolean z13);
+
+    void setPoiLimit(Integer num);
+
+    void setRotateGesturesEnabled(boolean z13);
+
+    void setScrollGesturesEnabled(boolean z13);
+
+    void setTiltGesturesEnabled(boolean z13);
+
+    void setZoomGesturesEnabled(boolean z13);
+
+    void startTileLoadMetricsCapture();
+
+    String stopTileLoadMetricsCapture();
+
+    VisibleRegion visibleRegion(CameraPosition cameraPosition);
+
+    void wipe();
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPromo"
+        android:padding="@dimen/content_margin_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/promotion"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/tvPromoIconCounter"
+        android:background="@drawable/bg_rounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/content_margin_4"
+        android:backgroundTint="?attr/colorSecondary"
+        android:paddingHorizontal="@dimen/content_margin_8"
+        style="@style/PromoIconCounter"/>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textview.MaterialTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="?attr/colorTextStaticWhite1"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:id="@+id/tvOnlineStatus"
+    android:background="@drawable/coupon_status_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:lineSpacingExtra="6sp"
+    android:backgroundTint="?attr/colorAdditional4"
+    android:layout_marginHorizontal="2dp"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="2dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    style="@style/Android.Caption1"/>

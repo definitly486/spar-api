@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/content_margin_16">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_margin_12"/>
+    <View
+        android:layout_gravity="center_horizontal"
+        style="@style/BottomSheetDialogCurtain"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_margin_12"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons1"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proloyalty_sbp_select_bank_app_title"
+        style="@style/Emphasis.Heading3"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons2"
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proloyalty_sbp_select_bank_app_message"
+        android:layout_marginVertical="@dimen/content_margin_16"
+        style="@style/Android.Body1"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:isScrollContainer="true">
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="vertical"
+            android:id="@+id/rvBankingApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </androidx.core.widget.NestedScrollView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_margin_24"/>
+</LinearLayout>

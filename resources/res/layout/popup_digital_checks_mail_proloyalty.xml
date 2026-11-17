@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/digital_checks_mail_popup_background"
+    android:padding="23dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_digital_checks_mail"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="center"
+        android:id="@+id/tvMailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/proloyalty_msg_dialog_echecks"
+        android:fontFamily="@font/cera_round_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMail"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvMailDescription"
+        app:layout_constraintStart_toStartOf="@+id/tvMailDescription"
+        app:layout_constraintTop_toBottomOf="@+id/tvMailDescription"/>
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:background="@null"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_black"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

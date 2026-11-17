@@ -1,0 +1,71 @@
+package of1;
+
+import com.google.android.gms.fido.fido2.api.common.UserVerificationMethods;
+import hg.jyumaefscl;
+import java.util.ArrayList;
+import java.util.List;
+import kotlin.NoWhenBranchMatchedException;
+import kotlin.jvm.internal.zdlpuopuiu;
+import modern.payments.ecomAndroid.util.networkErrorHandler.impl.OkHttpErrorHandlerImpl;
+import ru.myspar.proloyalty.options.impl.options.domain.store.State;
+import ru.myspar.proloyalty.user.domain.model.UserSubscriptionSetting;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class zoijcleaow implements a8.ppxfxbqfkf {
+    @Override // a8.ppxfxbqfkf
+    /* JADX INFO: renamed from: zoijcleaow, reason: merged with bridge method [inline-methods] */
+    public State iobyxmoadg(State state, gxszxtbevo msg) {
+        UserSubscriptionSetting userSubscriptionSettingPpxfxbqfkf;
+        zdlpuopuiu.btonecajqb(state, "<this>");
+        zdlpuopuiu.btonecajqb(msg, "msg");
+        if (msg instanceof gxszxtbevo.iobyxmoadg) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : ((gxszxtbevo.iobyxmoadg) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.wkgbmnqykc) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : ((gxszxtbevo.wkgbmnqykc) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.eablkybsjg) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : ((gxszxtbevo.eablkybsjg) msg).iobyxmoadg());
+        }
+        if (msg instanceof gxszxtbevo.C1579gxszxtbevo) {
+            gxszxtbevo.C1579gxszxtbevo c1579gxszxtbevo = (gxszxtbevo.C1579gxszxtbevo) msg;
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : c1579gxszxtbevo.iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : c1579gxszxtbevo.zoijcleaow(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.lqeggnwhkg) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : ((gxszxtbevo.lqeggnwhkg) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.nufgyqmvbu) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : ((gxszxtbevo.nufgyqmvbu) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.dxjokdxxww) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : ((gxszxtbevo.dxjokdxxww) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.btonecajqb) {
+            gxszxtbevo.btonecajqb btonecajqbVar = (gxszxtbevo.btonecajqb) msg;
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : btonecajqbVar.iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : btonecajqbVar.ppxfxbqfkf(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : btonecajqbVar.zoijcleaow(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.draadjrbmk) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : ((gxszxtbevo.draadjrbmk) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.zoijcleaow) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : ((gxszxtbevo.zoijcleaow) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (msg instanceof gxszxtbevo.ppxfxbqfkf) {
+            return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : ((gxszxtbevo.ppxfxbqfkf) msg).iobyxmoadg(), (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+        }
+        if (!(msg instanceof gxszxtbevo.gtknphoqwx)) {
+            throw new NoWhenBranchMatchedException();
+        }
+        List<UserSubscriptionSetting> userSubscriptions = state.getUserSubscriptions();
+        ArrayList arrayList = new ArrayList(jyumaefscl.cqumvgiudr(userSubscriptions, 10));
+        for (UserSubscriptionSetting userSubscriptionSetting : userSubscriptions) {
+            gxszxtbevo.gtknphoqwx gtknphoqwxVar = (gxszxtbevo.gtknphoqwx) msg;
+            UserSubscriptionSetting userSubscriptionSetting2 = zdlpuopuiu.eablkybsjg(userSubscriptionSetting.getId(), gtknphoqwxVar.iobyxmoadg()) ? userSubscriptionSetting : null;
+            if (userSubscriptionSetting2 != null && (userSubscriptionSettingPpxfxbqfkf = UserSubscriptionSetting.ppxfxbqfkf(userSubscriptionSetting2, null, gtknphoqwxVar.zoijcleaow(), null, 5, null)) != null) {
+                userSubscriptionSetting = userSubscriptionSettingPpxfxbqfkf;
+            }
+            arrayList.add(userSubscriptionSetting);
+        }
+        return state.zoijcleaow((OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 1) != 0 ? state.isEmailNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 2) != 0 ? state.isSmsNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 4) != 0 ? state.isPushNotificationEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 8) != 0 ? state.isAutoBrightnessEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 16) != 0 ? state.isShowQrEnabled : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 32) != 0 ? state.userSubscriptions : arrayList, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & 64) != 0 ? state.isDarkModeOptionVisible : false, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_PATTERN) != 0 ? state.darkModeState : null, (OkHttpErrorHandlerImpl.HTTP_UNAVAILABLE & UserVerificationMethods.USER_VERIFY_HANDPRINT) != 0 ? state.isLoading : false);
+    }
+}

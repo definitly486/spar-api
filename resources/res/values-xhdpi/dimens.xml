@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_counter_action_outside_padding">16dp</dimen>
+    <dimen name="product_counter_action_text_size">24sp</dimen>
+    <dimen name="product_counter_icon_size">34dp</dimen>
+    <dimen name="product_counter_text_size">16sp</dimen>
+</resources>

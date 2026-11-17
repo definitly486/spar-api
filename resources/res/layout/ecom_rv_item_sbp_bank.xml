@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ecom_76dp"
+    style="@style/EcomPayModeSelect.Style">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ecom_sbp_bank_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/ecom_20dp"
+        android:paddingVertical="@dimen/ecom_24dp">
+        <ImageView
+            android:id="@+id/ecom_sbp_bank_icon"
+            android:layout_width="@dimen/ecom_36dp"
+            android:layout_height="@dimen/ecom_36dp"
+            android:contentDescription="@string/ecom_empty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/ecom_sbp_bank_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/ecom_20dp"
+            style="@style/EcomCardSelectHeaderStyle"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

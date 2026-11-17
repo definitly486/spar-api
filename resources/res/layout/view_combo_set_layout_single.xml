@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/content_margin_6">
+    <TextView
+        android:textColor="?attr/colorOnSurface"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/tvCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/content_margin_16"
+        style="@style/Emphasis.Heading5"/>
+    <ru.myspar.legacy.presentation.view.ComboSetCardItemView
+        android:id="@+id/comboSetContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_16"
+        android:layout_marginBottom="@dimen/content_margin_6"
+        android:layout_marginHorizontal="@dimen/content_margin_16"/>
+</LinearLayout>

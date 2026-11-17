@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_rounded_corners_24dp_white"
+    android:padding="@dimen/content_margin_32"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons1"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_product_review_sent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Emphasis.Heading5"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorOnSurface"
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_4"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_16"
+        android:text="@string/rate_product_ok_button_text"
+        app:layout_constraintTop_toBottomOf="@+id/tvMessage"
+        style="@style/Button.Primary56"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

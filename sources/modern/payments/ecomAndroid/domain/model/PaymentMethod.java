@@ -1,0 +1,100 @@
+package modern.payments.ecomAndroid.domain.model;
+
+import kotlin.Metadata;
+import kotlin.jvm.internal.gtknphoqwx;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b0\u0018\u00002\u00020\u0001:\u0004\u0003\u0004\u0005\u0006B\u0007\b\u0004¢\u0006\u0002\u0010\u0002\u0082\u0001\u0004\u0007\b\t\n¨\u0006\u000b"}, d2 = {"Lmodern/payments/ecomAndroid/domain/model/PaymentMethod;", "", "()V", "Binding", "NewCard", "Sbp", "Spay", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Binding;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$NewCard;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Sbp;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Spay;", "ecomAndroid_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+public abstract class PaymentMethod {
+
+    @Metadata(d1 = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\bÆ\n\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u0013\u0010\u0003\u001a\u00020\u00042\b\u0010\u0005\u001a\u0004\u0018\u00010\u0006HÖ\u0003J\t\u0010\u0007\u001a\u00020\bHÖ\u0001J\t\u0010\t\u001a\u00020\nHÖ\u0001¨\u0006\u000b"}, d2 = {"Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Binding;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod;", "()V", "equals", "", "other", "", "hashCode", "", "toString", "", "ecomAndroid_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+    public static final /* data */ class Binding extends PaymentMethod {
+        public static final Binding INSTANCE = new Binding();
+
+        private Binding() {
+            super(null);
+        }
+
+        public boolean equals(Object other) {
+            return this == other || (other instanceof Binding);
+        }
+
+        public int hashCode() {
+            return 249426364;
+        }
+
+        public String toString() {
+            return "Binding";
+        }
+    }
+
+    @Metadata(d1 = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\bÆ\n\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u0013\u0010\u0003\u001a\u00020\u00042\b\u0010\u0005\u001a\u0004\u0018\u00010\u0006HÖ\u0003J\t\u0010\u0007\u001a\u00020\bHÖ\u0001J\t\u0010\t\u001a\u00020\nHÖ\u0001¨\u0006\u000b"}, d2 = {"Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$NewCard;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod;", "()V", "equals", "", "other", "", "hashCode", "", "toString", "", "ecomAndroid_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+    public static final /* data */ class NewCard extends PaymentMethod {
+        public static final NewCard INSTANCE = new NewCard();
+
+        private NewCard() {
+            super(null);
+        }
+
+        public boolean equals(Object other) {
+            return this == other || (other instanceof NewCard);
+        }
+
+        public int hashCode() {
+            return -2092626937;
+        }
+
+        public String toString() {
+            return "NewCard";
+        }
+    }
+
+    @Metadata(d1 = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\bÆ\n\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u0013\u0010\u0003\u001a\u00020\u00042\b\u0010\u0005\u001a\u0004\u0018\u00010\u0006HÖ\u0003J\t\u0010\u0007\u001a\u00020\bHÖ\u0001J\t\u0010\t\u001a\u00020\nHÖ\u0001¨\u0006\u000b"}, d2 = {"Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Sbp;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod;", "()V", "equals", "", "other", "", "hashCode", "", "toString", "", "ecomAndroid_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+    public static final /* data */ class Sbp extends PaymentMethod {
+        public static final Sbp INSTANCE = new Sbp();
+
+        private Sbp() {
+            super(null);
+        }
+
+        public boolean equals(Object other) {
+            return this == other || (other instanceof Sbp);
+        }
+
+        public int hashCode() {
+            return 686502584;
+        }
+
+        public String toString() {
+            return "Sbp";
+        }
+    }
+
+    @Metadata(d1 = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\bÆ\n\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u0013\u0010\u0003\u001a\u00020\u00042\b\u0010\u0005\u001a\u0004\u0018\u00010\u0006HÖ\u0003J\t\u0010\u0007\u001a\u00020\bHÖ\u0001J\t\u0010\t\u001a\u00020\nHÖ\u0001¨\u0006\u000b"}, d2 = {"Lmodern/payments/ecomAndroid/domain/model/PaymentMethod$Spay;", "Lmodern/payments/ecomAndroid/domain/model/PaymentMethod;", "()V", "equals", "", "other", "", "hashCode", "", "toString", "", "ecomAndroid_release"}, k = 1, mv = {1, 9, 0}, xi = 48)
+    public static final /* data */ class Spay extends PaymentMethod {
+        public static final Spay INSTANCE = new Spay();
+
+        private Spay() {
+            super(null);
+        }
+
+        public boolean equals(Object other) {
+            return this == other || (other instanceof Spay);
+        }
+
+        public int hashCode() {
+            return -193243266;
+        }
+
+        public String toString() {
+            return "Spay";
+        }
+    }
+
+    public /* synthetic */ PaymentMethod(gtknphoqwx gtknphoqwxVar) {
+        this();
+    }
+
+    private PaymentMethod() {
+    }
+}

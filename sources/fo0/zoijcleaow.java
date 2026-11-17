@@ -1,0 +1,8 @@
+package fo0;
+
+/* JADX INFO: loaded from: classes5.dex */
+public abstract class zoijcleaow {
+    public static int ic_delivery_interval_clock = 2131231162;
+    public static int ic_empty_cart = 2131231169;
+    public static int ic_high_load_background = 2131231186;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="?attr/colorOnSurface"
+        android:gravity="center_vertical"
+        android:id="@+id/tvBrandsCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/proloyalty_title_brands"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        style="@style/Emphasis.Heading5"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBrands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin"/>
+</merge>

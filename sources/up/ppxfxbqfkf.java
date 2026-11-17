@@ -1,0 +1,71 @@
+package up;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class ppxfxbqfkf {
+    public static int action_no = 2131886129;
+    public static int action_yes = 2131886142;
+    public static int applied = 2131886305;
+    public static int approximate_price_format = 2131886309;
+    public static int available_bonuses = 2131886336;
+    public static int available_bonuses_for_payment = 2131886337;
+    public static int basket_products = 2131886345;
+    public static int bonuses_spar = 2131886350;
+    public static int bunuses_for_payment = 2131886358;
+    public static int cart = 2131886387;
+    public static int cart_available_products_title = 2131886388;
+    public static int cart_delivery_address_flat = 2131886389;
+    public static int cart_delivery_caption_title = 2131886390;
+    public static int cart_empty_cart_warning = 2131886394;
+    public static int cart_empty_state_button = 2131886395;
+    public static int cart_empty_state_subtitle = 2131886396;
+    public static int cart_empty_state_title = 2131886397;
+    public static int cart_invalid_address_error = 2131886398;
+    public static int cart_invalid_date_error = 2131886399;
+    public static int cart_limit_warning = 2131886401;
+    public static int cart_overweight_warning = 2131886403;
+    public static int cart_pickup_address_error = 2131886404;
+    public static int cart_pickup_caption_title = 2131886405;
+    public static int cart_quantity_warning = 2131886410;
+    public static int cart_shipment_caption_title = 2131886412;
+    public static int cart_specifications = 2131886413;
+    public static int cart_unauthorized_warning = 2131886415;
+    public static int cart_unavailable_product_interval = 2131886416;
+    public static int cart_unavailable_products_interval = 2131886417;
+    public static int cart_unavailable_products_partner_title = 2131886418;
+    public static int cart_unavailable_products_title = 2131886419;
+    public static int check = 2131886443;
+    public static int check_address_and_interval = 2131886444;
+    public static int clear_cart = 2131886460;
+    public static int delete_cart = 2131886546;
+    public static int delivery = 2131886548;
+    public static int delivery_banner_choose_address = 2131886561;
+    public static int discount_format = 2131886594;
+    public static int empty_balance_bonuses = 2131886644;
+    public static int error = 2131886657;
+    public static int few_bonuses = 2131886761;
+    public static int free = 2131886788;
+    public static int free_delivery_price_format_2 = 2131886791;
+    public static int hint_change = 2131886813;
+    public static int min_order_price_format_2 = 2131886904;
+    public static int not_applied = 2131887013;
+
+    /* JADX INFO: renamed from: ok, reason: collision with root package name */
+    public static int f114077ok = 2131887026;
+    public static int price_with_currency_format = 2131887123;
+    public static int space_format = 2131888676;
+    public static int title_change = 2131888952;
+    public static int title_comment_order = 2131888957;
+    public static int title_goods = 2131888968;
+    public static int title_overweight = 2131889002;
+    public static int title_promocode_sale = 2131889016;
+    public static int title_receiver = 2131889020;
+    public static int title_sale = 2131889021;
+    public static int total_bonuses = 2131889041;
+    public static int total_payment = 2131889042;
+    public static int unavailable = 2131889050;
+    public static int unavailable_bonuses = 2131889051;
+    public static int unavailable_bonuses_value = 2131889052;
+    public static int weight = 2131889077;
+    public static int weight_format = 2131889078;
+    public static int write_off_bonuses = 2131889086;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ecom_bg_web_wiew"
+    android:paddingTop="34dp"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/ecom_bottomsheet_order_height"
+    android:transitionName="payTransition"
+    android:paddingHorizontal="@dimen/ecom_20dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true"
+        app:cardCornerRadius="@dimen/ecom_16dp"
+        app:cardElevation="0dp">
+        <WebView
+            android:id="@+id/ecomEcfWvContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/spay_bottom_sheet_common_height"
+    android:maxHeight="@dimen/spay_bottom_sheet_common_height"
+    android:minHeight="@dimen/spay_bottom_sheet_common_height"
+    android:transitionName="payTransition">
+    <WebView
+        android:id="@+id/spay_slpnavwv_wv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spay_bottom_sheet_common_height"
+        android:layout_marginTop="@dimen/spay_4dp"
+        android:layout_marginBottom="@dimen/spay_32dp"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginHorizontal="@dimen/spay_12dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/spay_slpnavwv_actv_mock_text"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/spay_mock_web_auth"/>
+</FrameLayout>

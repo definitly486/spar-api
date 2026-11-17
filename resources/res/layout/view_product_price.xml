@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_gravity="top"
+        android:id="@+id/tvPriceDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_2"
+        android:layout_marginStart="@dimen/content_margin_2"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rouble"
+        android:layout_marginStart="@dimen/content_margin_2"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_gravity="top"
+        android:id="@+id/tvMeasure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_2"
+        android:layout_marginStart="@dimen/content_margin_2"/>
+</LinearLayout>

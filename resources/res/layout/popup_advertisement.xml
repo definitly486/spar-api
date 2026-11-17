@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/Android.Body2"
+    android:textColor="?attr/colorTextIcons1"
+    android:background="@drawable/bg_rounded_corners_8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/colorSurface2"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="8dp"/>

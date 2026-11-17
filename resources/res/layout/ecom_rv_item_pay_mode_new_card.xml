@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ecom_76dp"
+    style="@style/EcomPayModeSelect.Style">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ecom_eripmnc_container"
+        android:padding="@dimen/ecom_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ecom_eripmnc_aciv_mode_icon"
+            android:layout_width="@dimen/ecom_36dp"
+            android:layout_height="@dimen/ecom_36dp"
+            android:src="@drawable/ecom_ic_card_preview"
+            android:contentDescription="@string/ecom_empty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:id="@+id/ecom_eripmnc_actv_mode_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ecom_eripmnc_new_card_title"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginStart="@dimen/ecom_8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ecom_eripmnc_aciv_mode_hint"
+            app:layout_constraintStart_toEndOf="@+id/ecom_eripmnc_aciv_mode_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/EcomSelectionTitle"/>
+        <ImageView
+            android:gravity="end|center_vertical"
+            android:id="@+id/ecom_eripmnc_aciv_mode_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ecom_ic_cards"
+            android:contentDescription="@string/ecom_empty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

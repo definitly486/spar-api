@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="plural_bonuses">
+        <item quantity="zero">бонусов</item>
+        <item quantity="one">бонус</item>
+        <item quantity="two">бонуса</item>
+        <item quantity="few">бонуса</item>
+        <item quantity="many">бонусов</item>
+        <item quantity="other">бонусов</item>
+    </plurals>
+    <plurals name="plural_product">
+        <item quantity="zero">Показать %1$d товаров</item>
+        <item quantity="one">Показать %1$d товар</item>
+        <item quantity="two">Показать %1$d товара</item>
+        <item quantity="few">Показать %1$d товара</item>
+        <item quantity="many">Показать %1$d товаров</item>
+        <item quantity="other">Показать %1$d товаров</item>
+    </plurals>
+    <plurals name="plural_product_set">
+        <item quantity="zero">%1$s наборов</item>
+        <item quantity="one">%1$s набор</item>
+        <item quantity="two">%1$s набора</item>
+        <item quantity="few">%1$s набора</item>
+        <item quantity="many">%1$s наборов</item>
+        <item quantity="other">%1$s наборов</item>
+    </plurals>
+    <plurals name="plural_products">
+        <item quantity="zero">%1$s товаров</item>
+        <item quantity="one">%1$s товар</item>
+        <item quantity="two">%1$s товара</item>
+        <item quantity="few">%1$s товара</item>
+        <item quantity="many">%1$s товаров</item>
+        <item quantity="other">%1$s товаров</item>
+    </plurals>
+    <plurals name="plural_purchase_bonuses">
+        <item quantity="zero">%1$s бонусов</item>
+        <item quantity="one">%1$s бонус</item>
+        <item quantity="two">%1$s бонуса</item>
+        <item quantity="few">%1$s бонуса</item>
+        <item quantity="many">%1$s бонусов</item>
+        <item quantity="other">%1$s бонусов</item>
+    </plurals>
+    <plurals name="plural_purchase_product">
+        <item quantity="zero">%1$d товаров</item>
+        <item quantity="one">%1$d товар</item>
+        <item quantity="two">%1$d товара</item>
+        <item quantity="few">%1$d товара</item>
+        <item quantity="many">%1$d товаров</item>
+        <item quantity="other">%1$d товаров</item>
+    </plurals>
+    <plurals name="plural_reviews">
+        <item quantity="zero">%1$s отзывов</item>
+        <item quantity="one">%1$s отзыв</item>
+        <item quantity="two">%1$s отзыва</item>
+        <item quantity="few">%1$s отзыва</item>
+        <item quantity="many">%1$s отзывов</item>
+        <item quantity="other">%1$s отзывов</item>
+    </plurals>
+    <plurals name="plural_stickers">
+        <item quantity="zero">наклеек</item>
+        <item quantity="one">наклейка</item>
+        <item quantity="two">наклейки</item>
+        <item quantity="few">наклейки</item>
+        <item quantity="many">наклеек</item>
+        <item quantity="other">наклеек</item>
+    </plurals>
+    <plurals name="plural_will_burn">
+        <item quantity="zero">сгорит</item>
+        <item quantity="one">сгорит</item>
+        <item quantity="two">сгорят</item>
+        <item quantity="few">сгорят</item>
+        <item quantity="many">сгорят</item>
+        <item quantity="other">сгорят</item>
+    </plurals>
+    <plurals name="rate_product_will_charge">
+        <item quantity="one">После проверки Вам будет начислен</item>
+        <item quantity="other">После проверки Вам будет начислено</item>
+    </plurals>
+    <plurals name="spay_bonuses">
+        <item quantity="one">%1$d бонус</item>
+        <item quantity="few">%1$d бонусов</item>
+        <item quantity="other">%1$d бонусов</item>
+    </plurals>
+    <plurals name="spay_order_compound_wallet_f">
+        <item quantity="one">и ещё %1$d</item>
+        <item quantity="few">и ещё %1$d</item>
+        <item quantity="other">и ещё %1$d</item>
+    </plurals>
+    <plurals name="spay_order_compound_wallet_old_f">
+        <item quantity="one">%1$d счетом</item>
+        <item quantity="few">%1$d счетами</item>
+        <item quantity="other">%1$d счетами</item>
+    </plurals>
+    <plurals name="spay_otp_secs_f">
+        <item quantity="one">%1$d секунду</item>
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="other">%1$d секунд</item>
+    </plurals>
+</resources>

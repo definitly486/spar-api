@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/logger_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ecom_logger_min_height"
+    android:transitionName="payTransition">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logger_back_btn"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ecom_56dp"
+        android:layout_margin="@dimen/ecom_16dp"
+        android:layout_marginTop="@dimen/ecom_24dp"
+        android:layout_marginBottom="@dimen/ecom_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/EcomPayButton">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/ecom_logger_width_300"
+            android:minHeight="@dimen/ecom_24dp"
+            android:text="Назад"
+            style="@style/EcomCardButton.SemiboldTextStyle"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.core.widget.NestedScrollView
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@+id/loggerScrollContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/ecom_16dp"
+        android:layout_marginBottom="@dimen/ecom_logger_bottom_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/loggerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"/>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons1"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Emphasis.Heading6"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textAppearance="@style/Regular.Heading6"
+        android:textSize="16sp"
+        android:textColor="@color/black_alpha_high"
+        android:id="@+id/tvMessage"
+        android:padding="@dimen/content_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6sp"
+        style="@style/CardWarningText"/>
+</FrameLayout>

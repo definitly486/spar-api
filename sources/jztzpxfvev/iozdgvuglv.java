@@ -1,0 +1,6 @@
+package jztzpxfvev;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface iozdgvuglv {
+    void iobyxmoadg(float f13);
+}

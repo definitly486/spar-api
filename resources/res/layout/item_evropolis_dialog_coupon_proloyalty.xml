@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_rounded_corners_8dp"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/dashBackground"
+        android:background="@drawable/bg_rounded_corners_8dp_dash"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary">
+        <TextView
+            android:textAppearance="@style/Emphasis.Heading3"
+            android:textColor="?attr/colorPrimary"
+            android:id="@+id/code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            style="@style/AutoSizeTextView"/>
+        <include
+            android:layout_gravity="center_vertical"
+            android:id="@+id/copyToBuffer"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            layout="@layout/view_copy_to_check_mark_proloyalty"/>
+    </LinearLayout>
+</FrameLayout>

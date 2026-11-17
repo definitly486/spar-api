@@ -1,0 +1,46 @@
+package dq0;
+
+import java.util.List;
+import kotlin.jvm.internal.zdlpuopuiu;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class eablkybsjg implements jt0.ppxfxbqfkf {
+
+    /* JADX INFO: renamed from: yggfygwlhe, reason: collision with root package name */
+    private final String f29312yggfygwlhe;
+
+    /* JADX INFO: renamed from: zdlpuopuiu, reason: collision with root package name */
+    private final List f29313zdlpuopuiu;
+
+    public eablkybsjg(List items) {
+        zdlpuopuiu.btonecajqb(items, "items");
+        this.f29313zdlpuopuiu = items;
+        String name = eablkybsjg.class.getName();
+        zdlpuopuiu.dxjokdxxww(name, "getName(...)");
+        this.f29312yggfygwlhe = name;
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof eablkybsjg) && zdlpuopuiu.eablkybsjg(this.f29313zdlpuopuiu, ((eablkybsjg) obj).f29313zdlpuopuiu);
+    }
+
+    @Override // b21.ppxfxbqfkf
+    public String getItemId() {
+        return this.f29312yggfygwlhe;
+    }
+
+    public int hashCode() {
+        return this.f29313zdlpuopuiu.hashCode();
+    }
+
+    public final List iobyxmoadg() {
+        return this.f29313zdlpuopuiu;
+    }
+
+    public String toString() {
+        return "History(items=" + this.f29313zdlpuopuiu + ")";
+    }
+}

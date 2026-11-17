@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_rounded_corners_12dp"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?attr/colorSpecialSurface5">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivWarning"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_attention_exclamation_mark_16"
+        android:tint="?attr/colorTextStaticBlack3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tintMode="src_in"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTimeLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/ivWarning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/ivWarning"
+        app:layout_constraintTop_toTopOf="@+id/ivWarning"
+        style="@style/SpecificOrderTimerHeaderStyle"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/partial_order_timer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/tvTimeLeft"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimeLeft"
+        style="@style/SpecificOrderTimerSubheadStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

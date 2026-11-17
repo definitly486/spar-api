@@ -1,0 +1,6 @@
+package qc2;
+
+/* JADX INFO: loaded from: classes6.dex */
+public interface iobyxmoadg {
+    kc2.iobyxmoadg iobyxmoadg();
+}

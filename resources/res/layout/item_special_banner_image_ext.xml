@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    app:cardBackgroundColor="?attr/colorTextStaticWhite1"
+    app:cardCornerRadius="@dimen/corner_large">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv_image_ext"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/banner_description"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceRounded16dp"/>
+    <ru.myspar.core.ui.view.popup_text.PopupTextView
+        android:layout_gravity="end|bottom"
+        android:id="@+id/tvAdvertisement"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/advertising"
+        style="@style/PopupTextViewDefault"/>
+</com.google.android.material.card.MaterialCardView>

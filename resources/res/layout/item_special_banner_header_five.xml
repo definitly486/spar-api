@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+    <com.google.android.material.textview.MaterialTextView
+        android:textColor="?attr/colorTextIcons1"
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/Emphasis.Heading5"/>
+    <com.google.android.material.button.MaterialButton
+        android:textAppearance="@style/Emphasis.Heading6"
+        android:id="@+id/btnMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="@string/special_products_more"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:cornerRadius="@dimen/content_margin_8"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+</LinearLayout>

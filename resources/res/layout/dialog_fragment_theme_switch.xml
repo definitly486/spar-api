@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="16dp"
+    android:paddingHorizontal="16dp">
+    <View
+        android:id="@+id/curtain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Curtain"/>
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@+id/rgThemeSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="@+id/curtain">
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:minHeight="48dp"
+            android:text="@string/option_item_system_theme"
+            style="@style/RadioButtonRightStyle"/>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/option_item_light_theme"
+            style="@style/RadioButtonRightStyle"/>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rbDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/option_item_dark_theme"
+            style="@style/RadioButtonRightStyle"/>
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

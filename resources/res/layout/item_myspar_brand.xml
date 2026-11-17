@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_cv"
+    android:layout_width="@dimen/brand_myspar_width"
+    android:layout_height="@dimen/brand_myspar_height"
+    app:cardBackgroundColor="?attr/colorTextStaticWhite1"
+    app:cardCornerRadius="@dimen/brand_myspar_radius"
+    app:cardElevation="0dp"
+    style="@style/Card.Stroked">
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+</com.google.android.material.card.MaterialCardView>

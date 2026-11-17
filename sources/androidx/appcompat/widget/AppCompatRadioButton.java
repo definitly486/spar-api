@@ -1,0 +1,210 @@
+package androidx.appcompat.widget;
+
+import android.content.Context;
+import android.content.res.ColorStateList;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
+import android.text.InputFilter;
+import android.util.AttributeSet;
+import android.widget.RadioButton;
+
+/* JADX INFO: loaded from: classes.dex */
+public class AppCompatRadioButton extends RadioButton implements androidx.core.widget.gtknphoqwx {
+
+    /* JADX INFO: renamed from: iwizpuwonk, reason: collision with root package name */
+    private btonecajqb f3084iwizpuwonk;
+
+    /* JADX INFO: renamed from: jyumaefscl, reason: collision with root package name */
+    private final zdlpuopuiu f3085jyumaefscl;
+
+    /* JADX INFO: renamed from: yggfygwlhe, reason: collision with root package name */
+    private final wkgbmnqykc f3086yggfygwlhe;
+
+    /* JADX INFO: renamed from: zdlpuopuiu, reason: collision with root package name */
+    private final lqeggnwhkg f3087zdlpuopuiu;
+
+    public AppCompatRadioButton(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, lqeggnwhkg.iobyxmoadg.radioButtonStyle);
+    }
+
+    private btonecajqb getEmojiTextViewHelper() {
+        if (this.f3084iwizpuwonk == null) {
+            this.f3084iwizpuwonk = new btonecajqb(this);
+        }
+        return this.f3084iwizpuwonk;
+    }
+
+    @Override // android.widget.CompoundButton, android.widget.TextView, android.view.View
+    protected void drawableStateChanged() {
+        super.drawableStateChanged();
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            wkgbmnqykcVar.zoijcleaow();
+        }
+        zdlpuopuiu zdlpuopuiuVar = this.f3085jyumaefscl;
+        if (zdlpuopuiuVar != null) {
+            zdlpuopuiuVar.zoijcleaow();
+        }
+    }
+
+    public ColorStateList getSupportBackgroundTintList() {
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            return wkgbmnqykcVar.ppxfxbqfkf();
+        }
+        return null;
+    }
+
+    public PorterDuff.Mode getSupportBackgroundTintMode() {
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            return wkgbmnqykcVar.wkgbmnqykc();
+        }
+        return null;
+    }
+
+    @Override // androidx.core.widget.gtknphoqwx
+    public ColorStateList getSupportButtonTintList() {
+        lqeggnwhkg lqeggnwhkgVar = this.f3087zdlpuopuiu;
+        if (lqeggnwhkgVar != null) {
+            return lqeggnwhkgVar.zoijcleaow();
+        }
+        return null;
+    }
+
+    public PorterDuff.Mode getSupportButtonTintMode() {
+        lqeggnwhkg lqeggnwhkgVar = this.f3087zdlpuopuiu;
+        if (lqeggnwhkgVar != null) {
+            return lqeggnwhkgVar.ppxfxbqfkf();
+        }
+        return null;
+    }
+
+    public ColorStateList getSupportCompoundDrawablesTintList() {
+        return this.f3085jyumaefscl.btonecajqb();
+    }
+
+    public PorterDuff.Mode getSupportCompoundDrawablesTintMode() {
+        return this.f3085jyumaefscl.gtknphoqwx();
+    }
+
+    @Override // android.widget.TextView
+    public void setAllCaps(boolean z13) {
+        super.setAllCaps(z13);
+        getEmojiTextViewHelper().wkgbmnqykc(z13);
+    }
+
+    @Override // android.view.View
+    public void setBackgroundDrawable(Drawable drawable) {
+        super.setBackgroundDrawable(drawable);
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            wkgbmnqykcVar.gxszxtbevo(drawable);
+        }
+    }
+
+    @Override // android.view.View
+    public void setBackgroundResource(int i13) {
+        super.setBackgroundResource(i13);
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            wkgbmnqykcVar.lqeggnwhkg(i13);
+        }
+    }
+
+    @Override // android.widget.CompoundButton
+    public void setButtonDrawable(Drawable drawable) {
+        super.setButtonDrawable(drawable);
+        lqeggnwhkg lqeggnwhkgVar = this.f3087zdlpuopuiu;
+        if (lqeggnwhkgVar != null) {
+            lqeggnwhkgVar.eablkybsjg();
+        }
+    }
+
+    @Override // android.widget.TextView
+    public void setCompoundDrawables(Drawable drawable, Drawable drawable2, Drawable drawable3, Drawable drawable4) {
+        super.setCompoundDrawables(drawable, drawable2, drawable3, drawable4);
+        zdlpuopuiu zdlpuopuiuVar = this.f3085jyumaefscl;
+        if (zdlpuopuiuVar != null) {
+            zdlpuopuiuVar.rgvfuqvkyq();
+        }
+    }
+
+    @Override // android.widget.TextView
+    public void setCompoundDrawablesRelative(Drawable drawable, Drawable drawable2, Drawable drawable3, Drawable drawable4) {
+        super.setCompoundDrawablesRelative(drawable, drawable2, drawable3, drawable4);
+        zdlpuopuiu zdlpuopuiuVar = this.f3085jyumaefscl;
+        if (zdlpuopuiuVar != null) {
+            zdlpuopuiuVar.rgvfuqvkyq();
+        }
+    }
+
+    public void setEmojiCompatEnabled(boolean z13) {
+        getEmojiTextViewHelper().eablkybsjg(z13);
+    }
+
+    @Override // android.widget.TextView
+    public void setFilters(InputFilter[] inputFilterArr) {
+        super.setFilters(getEmojiTextViewHelper().iobyxmoadg(inputFilterArr));
+    }
+
+    public void setSupportBackgroundTintList(ColorStateList colorStateList) {
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            wkgbmnqykcVar.dxjokdxxww(colorStateList);
+        }
+    }
+
+    public void setSupportBackgroundTintMode(PorterDuff.Mode mode) {
+        wkgbmnqykc wkgbmnqykcVar = this.f3086yggfygwlhe;
+        if (wkgbmnqykcVar != null) {
+            wkgbmnqykcVar.btonecajqb(mode);
+        }
+    }
+
+    @Override // androidx.core.widget.gtknphoqwx
+    public void setSupportButtonTintList(ColorStateList colorStateList) {
+        lqeggnwhkg lqeggnwhkgVar = this.f3087zdlpuopuiu;
+        if (lqeggnwhkgVar != null) {
+            lqeggnwhkgVar.gxszxtbevo(colorStateList);
+        }
+    }
+
+    @Override // androidx.core.widget.gtknphoqwx
+    public void setSupportButtonTintMode(PorterDuff.Mode mode) {
+        lqeggnwhkg lqeggnwhkgVar = this.f3087zdlpuopuiu;
+        if (lqeggnwhkgVar != null) {
+            lqeggnwhkgVar.lqeggnwhkg(mode);
+        }
+    }
+
+    public void setSupportCompoundDrawablesTintList(ColorStateList colorStateList) {
+        this.f3085jyumaefscl.iwizpuwonk(colorStateList);
+        this.f3085jyumaefscl.zoijcleaow();
+    }
+
+    public void setSupportCompoundDrawablesTintMode(PorterDuff.Mode mode) {
+        this.f3085jyumaefscl.cqumvgiudr(mode);
+        this.f3085jyumaefscl.zoijcleaow();
+    }
+
+    public AppCompatRadioButton(Context context, AttributeSet attributeSet, int i13) {
+        super(stevsuqkhv.zoijcleaow(context), attributeSet, i13);
+        wypolnanlu.iobyxmoadg(this, getContext());
+        lqeggnwhkg lqeggnwhkgVar = new lqeggnwhkg(this);
+        this.f3087zdlpuopuiu = lqeggnwhkgVar;
+        lqeggnwhkgVar.wkgbmnqykc(attributeSet, i13);
+        wkgbmnqykc wkgbmnqykcVar = new wkgbmnqykc(this);
+        this.f3086yggfygwlhe = wkgbmnqykcVar;
+        wkgbmnqykcVar.eablkybsjg(attributeSet, i13);
+        zdlpuopuiu zdlpuopuiuVar = new zdlpuopuiu(this);
+        this.f3085jyumaefscl = zdlpuopuiuVar;
+        zdlpuopuiuVar.wflxmlrfwp(attributeSet, i13);
+        getEmojiTextViewHelper().ppxfxbqfkf(attributeSet, i13);
+    }
+
+    @Override // android.widget.CompoundButton
+    public void setButtonDrawable(int i13) {
+        setButtonDrawable(nufgyqmvbu.iobyxmoadg.zoijcleaow(getContext(), i13));
+    }
+}

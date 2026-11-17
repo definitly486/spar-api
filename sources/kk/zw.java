@@ -1,0 +1,8 @@
+package kk;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class zw extends kz {
+
+    /* JADX INFO: renamed from: iobyxmoadg, reason: collision with root package name */
+    public static final zw f59634iobyxmoadg = new zw();
+}

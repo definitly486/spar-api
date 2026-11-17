@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:id="@+id/clRoot"
+    android:paddingTop="@dimen/content_margin_12"
+    android:paddingBottom="@dimen/content_margin_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/content_margin_16">
+    <View
+        android:id="@+id/curtain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Curtain"/>
+    <ru.myspar.ads.impl.presentation.view.PopupTitlesView
+        android:id="@+id/vTitles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGoTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curtain"/>
+    <com.google.android.material.button.MaterialButton
+        android:textAppearance="@style/Emphasis.Heading6"
+        android:id="@+id/btnGoTo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/ads_go_to_cart_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vTitles"
+        style="@style/Button.Primary56.ButtonLargeBold16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

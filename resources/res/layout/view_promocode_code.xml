@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_gravity="start"
+        android:id="@+id/ivSparIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/ic_spar_cropped"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:textAppearance="@style/Regular.Heading5"
+        android:textStyle="bold"
+        android:textColor="?attr/colorTextStaticWhite1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tvPromoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:maxLines="1"
+        android:paddingHorizontal="2dp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="2sp"
+        app:textAllCaps="true"
+        style="@style/AutoSizeTextView"/>
+</merge>

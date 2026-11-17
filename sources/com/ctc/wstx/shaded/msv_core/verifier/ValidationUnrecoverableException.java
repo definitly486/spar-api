@@ -1,0 +1,7 @@
+package com.ctc.wstx.shaded.msv_core.verifier;
+
+import org.xml.sax.SAXParseException;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class ValidationUnrecoverableException extends SAXParseException {
+}

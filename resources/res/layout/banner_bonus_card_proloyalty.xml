@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.myspar.proloyalty.common.view.bonus_card.CardWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardWidget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"/>

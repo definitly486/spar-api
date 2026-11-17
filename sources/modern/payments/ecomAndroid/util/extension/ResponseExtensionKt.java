@@ -1,0 +1,58 @@
+package modern.payments.ecomAndroid.util.extension;
+
+import com.google.gson.Gson;
+import kotlin.Metadata;
+import kotlin.jvm.internal.zdlpuopuiu;
+import lk.cdpycssgdh;
+import lk.yadqdtsiqt;
+import lm.kcexrzcfyt;
+import modern.payments.ecomAndroid.data.dto.EcomApiErrorDto;
+import modern.payments.ecomAndroid.data.dto.base.DataDtoInterface;
+import modern.payments.ecomAndroid.domain.model.EcomApiError;
+import modern.payments.ecomAndroid.util.exception.NullRequiredBodyException;
+
+/* JADX INFO: loaded from: classes3.dex */
+@Metadata(d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\u001a\u001b\u0010\u0004\u001a\u00020\u0003*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0000¢\u0006\u0004\b\u0004\u0010\u0005\u001a\u0013\u0010\u0006\u001a\u00020\u0003*\u00020\u0000H\u0000¢\u0006\u0004\b\u0006\u0010\u0007\u001a\u0013\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\u0000¢\u0006\u0004\b\u0002\u0010\b\u001a\u001f\u0010\u000b\u001a\u0004\u0018\u00010\n*\u0004\u0018\u00010\u00012\u0006\u0010\t\u001a\u00020\u0003H\u0000¢\u0006\u0004\b\u000b\u0010\f\u001a\u001f\u0010\u0010\u001a\u00020\u000f\"\u0004\b\u0000\u0010\r*\b\u0012\u0004\u0012\u00028\u00000\u000eH\u0000¢\u0006\u0004\b\u0010\u0010\u0011\u001a-\u0010\u0015\u001a\u00028\u0001\"\u000e\b\u0000\u0010\u0013*\b\u0012\u0004\u0012\u00028\u00010\u0012\"\u0004\b\u0001\u0010\u0014*\b\u0012\u0004\u0012\u00028\u00000\u000e¢\u0006\u0004\b\u0015\u0010\u0016¨\u0006\u0017"}, d2 = {"Llk/cdpycssgdh;", "Llk/yadqdtsiqt;", "responseBodyCopy", "", "toLogString", "(Llk/cdpycssgdh;Llk/yadqdtsiqt;)Ljava/lang/String;", "shortPath", "(Llk/cdpycssgdh;)Ljava/lang/String;", "(Llk/cdpycssgdh;)Llk/yadqdtsiqt;", "httpCode", "Lmodern/payments/ecomAndroid/domain/model/EcomApiError;", "readErrorBody", "(Llk/yadqdtsiqt;Ljava/lang/String;)Lmodern/payments/ecomAndroid/domain/model/EcomApiError;", "T", "Llm/kcexrzcfyt;", "", "isContentSuccessful", "(Llm/kcexrzcfyt;)Z", "Lmodern/payments/ecomAndroid/data/dto/base/DataDtoInterface;", "Dto", "Model", "mapDtoToModel", "(Llm/kcexrzcfyt;)Ljava/lang/Object;", "ecomAndroid_release"}, k = 2, mv = {1, 9, 0}, xi = 48)
+public final class ResponseExtensionKt {
+    public static final <T> boolean isContentSuccessful(kcexrzcfyt<T> kcexrzcfytVar) {
+        zdlpuopuiu.btonecajqb(kcexrzcfytVar, "<this>");
+        return kcexrzcfytVar.gxszxtbevo() && kcexrzcfytVar.iobyxmoadg() != null && kcexrzcfytVar.eablkybsjg() == null;
+    }
+
+    public static final <Dto extends DataDtoInterface<Model>, Model> Model mapDtoToModel(kcexrzcfyt<Dto> kcexrzcfytVar) {
+        Model model;
+        zdlpuopuiu.btonecajqb(kcexrzcfytVar, "<this>");
+        DataDtoInterface dataDtoInterface = (DataDtoInterface) kcexrzcfytVar.iobyxmoadg();
+        if (dataDtoInterface != null && (model = (Model) dataDtoInterface.toModel()) != null) {
+            return model;
+        }
+        cdpycssgdh cdpycssgdhVarNufgyqmvbu = kcexrzcfytVar.nufgyqmvbu();
+        zdlpuopuiu.dxjokdxxww(cdpycssgdhVarNufgyqmvbu, "raw(...)");
+        throw new NullRequiredBodyException(shortPath(cdpycssgdhVarNufgyqmvbu));
+    }
+
+    public static final EcomApiError readErrorBody(yadqdtsiqt yadqdtsiqtVar, String httpCode) {
+        zdlpuopuiu.btonecajqb(httpCode, "httpCode");
+        EcomApiErrorDto ecomApiErrorDto = (EcomApiErrorDto) new Gson().dxjokdxxww(yadqdtsiqtVar != null ? yadqdtsiqtVar.wkgbmnqykc() : null, EcomApiErrorDto.class);
+        if (ecomApiErrorDto != null) {
+            return ecomApiErrorDto.toModel(httpCode);
+        }
+        return null;
+    }
+
+    public static final yadqdtsiqt responseBodyCopy(cdpycssgdh cdpycssgdhVar) {
+        zdlpuopuiu.btonecajqb(cdpycssgdhVar, "<this>");
+        return cdpycssgdhVar.lereixgezr(Long.MAX_VALUE);
+    }
+
+    public static final String shortPath(cdpycssgdh cdpycssgdhVar) {
+        zdlpuopuiu.btonecajqb(cdpycssgdhVar, "<this>");
+        return (String) cdpycssgdhVar.cdpycssgdh().gtknphoqwx().agtfadlqog().get(cdpycssgdhVar.cdpycssgdh().gtknphoqwx().ojitshcjhn() - 1);
+    }
+
+    public static final String toLogString(cdpycssgdh cdpycssgdhVar, yadqdtsiqt responseBodyCopy) {
+        zdlpuopuiu.btonecajqb(cdpycssgdhVar, "<this>");
+        zdlpuopuiu.btonecajqb(responseBodyCopy, "responseBodyCopy");
+        return cdpycssgdhVar + "\n\nHeaders:\n" + cdpycssgdhVar.kcexrzcfyt() + "\n\nBody:\n" + responseBodyCopy.agtfadlqog() + "\n\n";
+    }
+}

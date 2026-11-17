@@ -1,0 +1,54 @@
+package bp0;
+
+/* JADX INFO: loaded from: classes5.dex */
+public abstract class lqeggnwhkg {
+    public static int proloyalty_add_to_cart = 2131887197;
+    public static int proloyalty_catalog_pager_restaurants_title = 2131887334;
+    public static int proloyalty_catalog_pager_spar_title = 2131887335;
+    public static int proloyalty_clear_history = 2131887370;
+    public static int proloyalty_delivery_type_fast_title = 2131887466;
+    public static int proloyalty_delivery_type_pick_up_title = 2131887467;
+    public static int proloyalty_delivery_type_regular_title = 2131887468;
+    public static int proloyalty_edit_order_catalog_return_to_order = 2131887484;
+    public static int proloyalty_edit_order_catalog_search = 2131887485;
+    public static int proloyalty_format_brand_title = 2131887570;
+    public static int proloyalty_history = 2131887598;
+    public static int proloyalty_history_recommendation = 2131887599;
+    public static int proloyalty_msg_product_adding_to_cart = 2131887660;
+    public static int proloyalty_msg_product_adding_to_edit_order = 2131887661;
+    public static int proloyalty_my_lists = 2131887668;
+    public static int proloyalty_order_edit_delivery_price_changed = 2131887731;
+    public static int proloyalty_pickup = 2131887778;
+    public static int proloyalty_product_not_available = 2131887801;
+    public static int proloyalty_purchase_compilation_selection = 2131887842;
+    public static int proloyalty_purchase_delimiter = 2131887843;
+    public static int proloyalty_purchases_history_title = 2131887853;
+    public static int proloyalty_purchases_list_product_added_to_the_list = 2131887867;
+    public static int proloyalty_purchases_list_product_list_added_to_the_list = 2131887869;
+    public static int proloyalty_restaurant_delivery_time_format = 2131887963;
+    public static int proloyalty_restaurant_min_order_sum_format = 2131887968;
+    public static int proloyalty_restaurants_empty_warning = 2131887971;
+    public static int proloyalty_search_nothing_found = 2131888074;
+    public static int proloyalty_search_please_try_another_query = 2131888075;
+    public static int proloyalty_sort_title_dialog = 2131888118;
+    public static int proloyalty_sort_title_popular = 2131888119;
+    public static int proloyalty_sort_title_popular_dialog = 2131888120;
+    public static int proloyalty_sort_title_price_asc = 2131888121;
+    public static int proloyalty_sort_title_price_asc_dialog = 2131888122;
+    public static int proloyalty_sort_title_price_desc = 2131888123;
+    public static int proloyalty_sort_title_price_desc_dialog = 2131888124;
+    public static int proloyalty_sort_title_rating = 2131888125;
+    public static int proloyalty_sort_title_rating_dialog = 2131888126;
+    public static int proloyalty_sort_title_rating_vivino_dialog = 2131888127;
+    public static int proloyalty_sort_title_vivino_rating = 2131888128;
+    public static int proloyalty_specific_purchase_success_retry_return = 2131888196;
+    public static int proloyalty_specific_purchase_success_retry_subtitle = 2131888197;
+    public static int proloyalty_specific_purchase_success_retry_title = 2131888198;
+    public static int proloyalty_title_buy_shop = 2131888238;
+    public static int proloyalty_title_not_found_search_warning = 2131888277;
+    public static int proloyalty_title_product_not_available = 2131888308;
+    public static int proloyalty_title_search = 2131888317;
+    public static int proloyalty_title_search_empty_warning = 2131888318;
+    public static int proloyalty_title_search_in_category = 2131888319;
+    public static int proloyalty_title_temporary_not_available = 2131888326;
+}

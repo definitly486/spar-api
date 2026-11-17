@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="16dp"
+    android:insetRight="16dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/scan_and_go_popup_corners_radius"/>
+        <solid android:color="?attr/colorSurface2"/>
+    </shape>
+</inset>

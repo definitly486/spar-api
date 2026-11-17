@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ecom_fl_card_icon_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ecom_iv_card_icon"
+        android:visibility="invisible"
+        android:layout_width="@dimen/ecom_card_icon_size"
+        android:layout_height="@dimen/ecom_card_icon_size"
+        android:contentDescription="@string/ecom_empty"/>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/ecom_shimmer_fl_card_icon"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EcomShimmerStyle">
+        <ImageView
+            android:id="@+id/ecom_iv_card_icon_skeleton"
+            android:layout_width="@dimen/ecom_card_icon_size"
+            android:layout_height="@dimen/ecom_card_icon_size"
+            android:src="@drawable/ecom_bg_card_icon_shimmer_underlay"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/ecom_empty"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

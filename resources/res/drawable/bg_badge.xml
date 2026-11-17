@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/color_secondary_2_with_alpha_badge"/>
+            <corners
+                android:topLeftRadius="@dimen/corner_medium"
+                android:topRightRadius="@dimen/corner_medium"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="@dimen/corner_medium"/>
+        </shape>
+    </item>
+</selector>

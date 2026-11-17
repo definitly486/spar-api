@@ -1,0 +1,45 @@
+package com.google.android.gms.internal.mlkit_common;
+
+import java.io.IOException;
+import mc.ppxfxbqfkf;
+import mc.zoijcleaow;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzfx implements ppxfxbqfkf {
+    static final zzfx zza = new zzfx();
+
+    static {
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg = zoijcleaow.iobyxmoadg("mode");
+        zzay zzayVar = new zzay();
+        zzayVar.zza(1);
+        c1380zoijcleaowIobyxmoadg.zoijcleaow(zzayVar.zzb()).iobyxmoadg();
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg2 = zoijcleaow.iobyxmoadg("landmark");
+        zzay zzayVar2 = new zzay();
+        zzayVar2.zza(2);
+        c1380zoijcleaowIobyxmoadg2.zoijcleaow(zzayVar2.zzb()).iobyxmoadg();
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg3 = zoijcleaow.iobyxmoadg("classification");
+        zzay zzayVar3 = new zzay();
+        zzayVar3.zza(3);
+        c1380zoijcleaowIobyxmoadg3.zoijcleaow(zzayVar3.zzb()).iobyxmoadg();
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg4 = zoijcleaow.iobyxmoadg("prominentFaceOnly");
+        zzay zzayVar4 = new zzay();
+        zzayVar4.zza(4);
+        c1380zoijcleaowIobyxmoadg4.zoijcleaow(zzayVar4.zzb()).iobyxmoadg();
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg5 = zoijcleaow.iobyxmoadg("tracking");
+        zzay zzayVar5 = new zzay();
+        zzayVar5.zza(5);
+        c1380zoijcleaowIobyxmoadg5.zoijcleaow(zzayVar5.zzb()).iobyxmoadg();
+        zoijcleaow.C1380zoijcleaow c1380zoijcleaowIobyxmoadg6 = zoijcleaow.iobyxmoadg("minFaceSize");
+        zzay zzayVar6 = new zzay();
+        zzayVar6.zza(6);
+        c1380zoijcleaowIobyxmoadg6.zoijcleaow(zzayVar6.zzb()).iobyxmoadg();
+    }
+
+    private zzfx() {
+    }
+
+    @Override // mc.ppxfxbqfkf
+    public final /* bridge */ /* synthetic */ void encode(Object obj, Object obj2) throws IOException {
+        throw null;
+    }
+}

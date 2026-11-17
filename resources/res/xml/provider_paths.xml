@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external_files"
+        path="."/>
+    <files-path
+        name="chat_cache"
+        path="chat_cache"/>
+    <cache-path
+        name="network_logs"
+        path="network_logs"/>
+    <cache-path
+        name="debug_panel_logs"
+        path="debug_panel_logs"/>
+</paths>

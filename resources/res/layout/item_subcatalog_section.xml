@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootSubCatalogSection"
+    android:background="@drawable/bg_rounded_corners_8dp"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:backgroundTint="?attr/colorSpecialSurface8"
+    android:layout_marginHorizontal="16dp">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceRoundedLeftTopBottom8dp"/>
+    <TextView
+        android:textColor="?attr/colorTextStaticBlack2"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/content_margin_10"
+        android:layout_marginEnd="@dimen/content_margin_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Emphasis.Heading6"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/cvAdPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
